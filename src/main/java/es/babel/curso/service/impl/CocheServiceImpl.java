@@ -97,7 +97,7 @@ public class CocheServiceImpl implements CocheService {
 					messages.put("Alta Correcta -> ", "El vehiculo ha sido creado correctamente");
 				} else {
 					this.cocheRepository.save(c);
-					messages.put("Modificar Correcta -> ", "El vehiculo ha sido creado correctamente");
+					messages.put("Modificar Correcta -> ", "El vehiculo ha sido modificado correctamente");
 				}
 				
 			}
